@@ -15,7 +15,7 @@ export const dashboard = (
 				<option class="all-option">All</option>
 				</select>
 				<input
-						class="form-control mr-sm-2 searchInput"
+						class="form-control mr-sm-2 searchInput myInput"
 						type="search"
 						placeholder="Search"
 						aria-label="Search"
@@ -83,3 +83,17 @@ export const dashboard = (
     td5.innerText = `${expire[i]}`;
   }
 };
+// let input:HTMLInputElement = (document.getElementById("myInput") as HTMLInputElement);
+// var filter, ul, li, a, i, txtValue;
+//     filter = input.value.toUpperCase();
+//     ul = document.getElementById("myUL");
+//     li = ul.getElementsByTagName("li");
+//     for (i = 0; i < li.length; i++) {
+//         a = li[i].getElementsByTagName("a")[0];
+//         txtValue = a.textContent || a.innerText;
+//         if (txtValue.toUpperCase().indexOf(filter) > -1) {
+//             li[i].style.display = "";
+//         } else {
+//             li[i].style.display = "none";
+//         }
+// }
